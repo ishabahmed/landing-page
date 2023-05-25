@@ -123,4 +123,18 @@ a {
 
 .container.quote {
   background-color: #d4e3e5;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em 20em 2.5em 20em;
+  align-items: flex-end;
+  color: #f77b6e;
+}
+
+.container.quote > .quote-text {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.container.quote > .quote-author {
+  font-weight: 800;
 }
